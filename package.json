@@ -16,5 +16,9 @@
     "live-server": "^1.2.0",
     "run-all": "^1.0.1",
     "watchify": "^3.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jquery": "^3.3.1"
   }
 }
