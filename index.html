@@ -40,11 +40,28 @@
               <label for="blogcontents">Contents</label>
               <textarea class="form-control" id="blogcontents" rows="5"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary submit">Submit Blog</button>
+            <button type="submit" style="display: block;" class="btn btn-primary submit">Submit Blog</button>
+            <button type="button" style="display: none;" class="btn btn-primary update">Update Blog</button>
           </form>
 
           <div class="previousblog" style="display: block;">
-            <p class="blog-content"></p>
+            <header>
+              <h2 class="blog-title"></h2>
+              <hr>
+            </header>
+            <article>
+              <p class="blog-content"></p>
+            </article>
+            <aside>
+              <ul class="nav justify-content-end">
+                <li class="nav-item nav-item-edit">
+                  <a class="nav-link" id="edit-post" href="#">Edit</a>
+                </li>
+                <li class="nav-item nav-item-delete">
+                  <a class="nav-link text-danger" id="delete-post" href="#">Delete</a>
+                </li>
+              </ul>
+            </aside>
           </div>
         </div>
       </section>
